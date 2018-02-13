@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22786" started-at="2018-01-26T13:21:34Z" finished-at="2018-01-26T13:21:57Z">
+  <suite name="Suite" duration-ms="47719" started-at="2018-02-13T13:03:26Z" finished-at="2018-02-13T13:04:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22786" started-at="2018-01-26T13:21:34Z" finished-at="2018-01-26T13:21:57Z">
+    <test name="Test" duration-ms="47719" started-at="2018-02-13T13:03:26Z" finished-at="2018-02-13T13:04:14Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@28d25987]" name="beforeTest" is-config="true" duration-ms="14581" started-at="2018-01-26T18:51:34Z" finished-at="2018-01-26T18:51:49Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@28d25987]" name="beforeTest" is-config="true" duration-ms="33368" started-at="2018-02-13T18:33:26Z" finished-at="2018-02-13T18:33:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@28d25987]" name="f" duration-ms="7217" started-at="2018-01-26T18:51:49Z" finished-at="2018-01-26T18:51:56Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@28d25987]" name="f" duration-ms="13128" started-at="2018-02-13T18:33:59Z" finished-at="2018-02-13T18:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@28d25987]" name="afterTest" is-config="true" duration-ms="824" started-at="2018-01-26T18:51:56Z" finished-at="2018-01-26T18:51:57Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@28d25987]" name="afterTest" is-config="true" duration-ms="1147" started-at="2018-02-13T18:34:13Z" finished-at="2018-02-13T18:34:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
