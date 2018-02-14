@@ -23,7 +23,7 @@ public class NewTest {
 	  
 	  Assert.assertEquals(actualTitle, expectedTitle);
 	  
-  }*/
+  }  */
 	@Test
 	  public void f() {
 		  log.info("*****************launching chrome**************************");
