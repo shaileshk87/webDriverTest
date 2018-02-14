@@ -4,6 +4,7 @@
 
 <listeners>
 <listener class-name="analyzer.MyTransformer"></listener>
+<listener class-name="extentReportListener.ExtentReporterNG"></listener>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="example.NewTest" duration-ms="87759" started-at="2018-02-14T11:30:04Z" finished-at="2018-02-14T11:31:32Z">
+  <suite name="example.NewTest" duration-ms="82819" started-at="2018-02-14T12:02:17Z" finished-at="2018-02-14T12:03:40Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="87759" started-at="2018-02-14T11:30:04Z" finished-at="2018-02-14T11:31:32Z">
+    <test name="Command line test" duration-ms="82819" started-at="2018-02-14T12:02:17Z" finished-at="2018-02-14T12:03:40Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@380fb434]" name="beforeTest" is-config="true" duration-ms="45988" started-at="2018-02-14T17:00:04Z" finished-at="2018-02-14T17:00:50Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@380fb434]" name="beforeTest" is-config="true" duration-ms="45013" started-at="2018-02-14T17:32:17Z" finished-at="2018-02-14T17:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@380fb434]" name="f" duration-ms="25777" started-at="2018-02-14T17:00:50Z" finished-at="2018-02-14T17:01:16Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@380fb434]" name="f" duration-ms="27492" started-at="2018-02-14T17:33:03Z" finished-at="2018-02-14T17:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="FAIL" signature="ft()[pri:0, instance:example.NewTest@380fb434]" name="ft" duration-ms="13307" started-at="2018-02-14T17:01:16Z" finished-at="2018-02-14T17:01:30Z">
+        <test-method status="FAIL" signature="ft()[pri:0, instance:example.NewTest@380fb434]" name="ft" duration-ms="7488" started-at="2018-02-14T17:33:31Z" finished-at="2018-02-14T17:33:39Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Google1] but found [Google]]]>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ft -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@380fb434]" name="afterTest" is-config="true" duration-ms="2041" started-at="2018-02-14T17:01:30Z" finished-at="2018-02-14T17:01:32Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@380fb434]" name="afterTest" is-config="true" duration-ms="1351" started-at="2018-02-14T17:33:39Z" finished-at="2018-02-14T17:33:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

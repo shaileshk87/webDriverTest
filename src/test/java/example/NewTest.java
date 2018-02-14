@@ -39,7 +39,7 @@ public class NewTest {
 		  log.info("*****************launching chrome**************************");
 		  driver.get("https://google.com");
 		  String actualTitle = driver.getTitle();
-		  String expectedTitle = "Google1";
+		  String expectedTitle = "Google";
 		  
 		  Assert.assertEquals(actualTitle, expectedTitle);
 		  
