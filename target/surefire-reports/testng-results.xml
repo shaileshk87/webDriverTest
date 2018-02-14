@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="68589" started-at="2018-02-14T14:04:32Z" finished-at="2018-02-14T14:05:40Z">
+  <suite name="Suite" duration-ms="101882" started-at="2018-02-14T15:43:37Z" finished-at="2018-02-14T15:45:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="68589" started-at="2018-02-14T14:04:32Z" finished-at="2018-02-14T14:05:40Z">
+    <test name="Test" duration-ms="101882" started-at="2018-02-14T15:43:37Z" finished-at="2018-02-14T15:45:19Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@6fb554cc]" name="beforeTest" is-config="true" duration-ms="37332" started-at="2018-02-14T19:34:32Z" finished-at="2018-02-14T19:35:09Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@6fb554cc]" name="beforeTest" is-config="true" duration-ms="58021" started-at="2018-02-14T21:13:37Z" finished-at="2018-02-14T21:14:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@6fb554cc]" name="f" duration-ms="26738" started-at="2018-02-14T19:35:09Z" finished-at="2018-02-14T19:35:36Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@6fb554cc]" name="f" duration-ms="29896" started-at="2018-02-14T21:14:35Z" finished-at="2018-02-14T21:15:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="ft()[pri:0, instance:example.NewTest@6fb554cc]" name="ft" duration-ms="2357" started-at="2018-02-14T19:35:36Z" finished-at="2018-02-14T19:35:38Z">
+        <test-method status="PASS" signature="ft()[pri:0, instance:example.NewTest@6fb554cc]" name="ft" duration-ms="11705" started-at="2018-02-14T21:15:05Z" finished-at="2018-02-14T21:15:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ft -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@6fb554cc]" name="afterTest" is-config="true" duration-ms="1967" started-at="2018-02-14T19:35:38Z" finished-at="2018-02-14T19:35:40Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@6fb554cc]" name="afterTest" is-config="true" duration-ms="2097" started-at="2018-02-14T21:15:17Z" finished-at="2018-02-14T21:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
