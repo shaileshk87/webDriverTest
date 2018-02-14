@@ -1,69 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="1" ignored="0" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33723" started-at="2018-02-14T09:26:15Z" finished-at="2018-02-14T09:26:49Z">
+  <suite name="Suite" duration-ms="27871" started-at="2018-02-14T14:08:10Z" finished-at="2018-02-14T14:08:38Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33723" started-at="2018-02-14T09:26:15Z" finished-at="2018-02-14T09:26:49Z">
+    <test name="Test" duration-ms="27871" started-at="2018-02-14T14:08:10Z" finished-at="2018-02-14T14:08:38Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@d8355a8]" name="beforeTest" is-config="true" duration-ms="12422" started-at="2018-02-14T14:56:15Z" finished-at="2018-02-14T14:56:28Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@27efef64]" name="beforeTest" is-config="true" duration-ms="11271" started-at="2018-02-14T19:38:10Z" finished-at="2018-02-14T19:38:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@d8355a8]" name="f" duration-ms="9815" started-at="2018-02-14T14:56:28Z" finished-at="2018-02-14T14:56:38Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@27efef64]" name="f" duration-ms="8496" started-at="2018-02-14T19:38:22Z" finished-at="2018-02-14T19:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="SKIP" signature="ft()[pri:0, instance:example.NewTest@d8355a8]" name="ft" duration-ms="3812" started-at="2018-02-14T14:56:38Z" finished-at="2018-02-14T14:56:41Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Google1] but found [Google]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Google1] but found [Google]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at example.NewTest.ft(NewTest.java:44)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="ft()[pri:0, instance:example.NewTest@27efef64]" name="ft" duration-ms="7234" started-at="2018-02-14T19:38:30Z" finished-at="2018-02-14T19:38:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ft -->
-        <test-method status="SKIP" signature="ft()[pri:0, instance:example.NewTest@d8355a8]" name="ft" duration-ms="1273" started-at="2018-02-14T14:56:41Z" finished-at="2018-02-14T14:56:43Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Google1] but found [Google]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Google1] but found [Google]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at example.NewTest.ft(NewTest.java:44)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.retryFailed(Invoker.java:829)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1000)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ft -->
-        <test-method status="SKIP" signature="ft()[pri:0, instance:example.NewTest@d8355a8]" name="ft" duration-ms="2552" started-at="2018-02-14T14:56:43Z" finished-at="2018-02-14T14:56:45Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Google1] but found [Google]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Google1] but found [Google]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at example.NewTest.ft(NewTest.java:44)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.retryFailed(Invoker.java:829)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1000)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ft -->
-        <test-method status="FAIL" signature="ft()[pri:0, instance:example.NewTest@d8355a8]" name="ft" duration-ms="2290" started-at="2018-02-14T14:56:45Z" finished-at="2018-02-14T14:56:48Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Google1] but found [Google]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Google1] but found [Google]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at example.NewTest.ft(NewTest.java:44)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.retryFailed(Invoker.java:829)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1000)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ft -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@d8355a8]" name="afterTest" is-config="true" duration-ms="1409" started-at="2018-02-14T14:56:48Z" finished-at="2018-02-14T14:56:49Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@27efef64]" name="afterTest" is-config="true" duration-ms="802" started-at="2018-02-14T19:38:37Z" finished-at="2018-02-14T19:38:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

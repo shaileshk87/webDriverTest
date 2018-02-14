@@ -1,2 +1,3 @@
 analyzer\MyTransformer.class
 analyzer\RetryAnalyzer.class
+extentReportListener\ExtentReporterNG.class
